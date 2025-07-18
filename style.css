@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 5% 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+section{
+    background-color: white;
+    border: 2px solid black;
+    max-width: 500px;
+    width: 100%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+li{
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    margin-right: 0;
+}
+
+ul{
+    padding-right: 35px;
+}
+
+.button{
+    width: 90px;
+    height: 40px;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+}
+.sub-container{
+    margin-bottom: 20px;
+}
+.list_button{
+    width: 60px;
+    margin-left: 30%;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+}
+
+.list_button::before{
+    content: icon;
+}
+
+.delete_btn{
+    margin-left: 10px;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60px;
+}
+
+.values{
+    font-family: 'Poppins', 'Inter', sans-serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+    list-style: none;
+}
+.no_task{
+    text-align: center;
+    opacity: 0.8;
+}
+
+.clear_all{
+    padding: 60px 0 10px 0;
+}
+
+.clear_btn{
+    width: 400px;
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: orangered;
+}
+button:hover{
+    background-color: rgb(215, 57, 0);
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        padding: 5%;
+    }
+    section{
+        max-width: 900px;
+    }
+}
